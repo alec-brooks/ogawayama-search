@@ -13,16 +13,6 @@ xhr.onreadystatechange = function() {
 			var tbody = document.querySelector('#data-table tbody');
 			data.forEach(function(row) {
 				var tr = document.createElement('tr');
-                /*
-				<th>Title</th>
-				<th>Description</th>
-				<th>Grade</th>
-				<th>Quality</th>
-				<th>Height</th>
-				<th>Notes</th>
-				<th>Link</th>
-                 *
-                 * */
 				tr.innerHTML = '<td>' + row.title + '</td>' +
 				               '<td>' + row.description + '</td>' +
 				               '<td>' + row.grade + '</td>' +
