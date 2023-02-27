@@ -13,3 +13,10 @@ At the moment it is recommended to query the data using the tool `jq` as such:
 ```bash
 jq 'select(.quality > 2 and .grade == "5.7")' climbs.ndjson
 ```
+
+## Local Development
+
+Run the following to host a local server with python3
+```bash
+python -m http.server
+```
